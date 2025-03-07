@@ -1,18 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>carousel-contact-info</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JurisConsult - Advocacia de Excelência</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="#" class="navbar-logo">JurisConsult</a>
+        
+        <!-- Desktop Navigation -->
+        <div class="navbar-menu">
+          <a href="#inicio" class="nav-link">Início</a>
+          <a href="#servicos" class="nav-link">Serviços</a>
+          <a href="#sobre" class="nav-link">Sobre Nós</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" id="menuToggle">
+          <span class="menu-icon"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+          <a href="#inicio" class="mobile-link">Início</a>
+          <a href="#servicos" class="mobile-link">Serviços</a>
+          <a href="#sobre" class="mobile-link">Sobre Nós</a>
+          <a href="#contato" class="mobile-link">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="carousel-container">
+      <div class="carousel-slides" id="carousel">
+        <div class="carousel-slide active">
+          <div class="carousel-image" style="background-image: url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+              <h1>Advocacia de Excelência</h1>
+              <p>Soluções jurídicas personalizadas para proteger seus direitos</p>
+              <a href="#contato" class="btn">Consulta Gratuita</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-image" style="background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+              <h1>Experiência e Comprometimento</h1>
+              <p>Uma equipe dedicada a defender seus interesses com excelência</p>
+              <a href="#contato" class="btn">Consulta Gratuita</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-image" style="background-image: url('https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80')">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+              <h1>Consultoria Jurídica Especializada</h1>
+              <p>Aconselhamento estratégico para prevenir litígios e garantir conformidade</p>
+              <a href="#contato" class="btn">Consulta Gratuita</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control prev" id="prevSlide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="carousel-control next" id="nextSlide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button class="indicator active" data-slide="0"></button>
+        <button class="indicator" data-slide="1"></button>
+        <button class="indicator" data-slide="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicos" class="services">
+    <div class="container">
+      <div class="section-header fade-in-section">
+        <h2>Nossos Serviços</h2>
+        <div class="accent-line"></div>
+        <p>Oferecemos soluções jurídicas personalizadas com excelência e comprometimento para proteger seus direitos e interesses.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card fade-in-section">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v4M2 5l1.67 1.67M20 5l-1.67 1.67M16 16l1 3h4l-7 4-7-4h4l1-3"/><path d="M7 10h10v4a5 5 0 0 1-10 0v-4Z"/></svg>
+          </div>
+          <h3>Direito Civil</h3>
+          <p>Assessoria completa em contratos, responsabilidade civil, direito de família e sucessões.</p>
+        </div>
+        <div class="service-card fade-in-section">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <h3>Direito Empresarial</h3>
+          <p>Consultoria jurídica para empresas, elaboração de contratos comerciais e resolução de disputas.</p>
+        </div>
+        <div class="service-card fade-in-section">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
+          </div>
+          <h3>Direito do Consumidor</h3>
+          <p>Defesa dos seus direitos nas relações de consumo e reparação de danos.</p>
+        </div>
+        <div class="service-card fade-in-section">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3>Direito Trabalhista</h3>
+          <p>Atuação em processos trabalhistas, orientação empresarial e negociações coletivas.</p>
+        </div>
+      </div>
+
+      <div class="services-feature fade-in-section">
+        <div class="feature-card">
+          <div class="feature-content">
+            <h3>Por que escolher nossa equipe?</h3>
+            <p>Com mais de 15 anos de experiência, nossa equipe de advogados altamente qualificados está comprometida em oferecer serviços jurídicos excepcionais, combinando conhecimento técnico com uma abordagem personalizada para cada cliente.</p>
+            <ul class="feature-list">
+              <li><span class="check-mark">✓</span> Atendimento personalizado</li>
+              <li><span class="check-mark">✓</span> Profissionais especializados</li>
+              <li><span class="check-mark">✓</span> Compromisso com resultados</li>
+              <li><span class="check-mark">✓</span> Ética e transparência</li>
+            </ul>
+          </div>
+          <div class="feature-image" style="background-image: url('https://images.unsplash.com/photo-1593115057322-e94b77572f20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80')"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="sobre" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image-container fade-in-section">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Nossa equipe">
+            <div class="image-accent"></div>
+          </div>
+        </div>
+        
+        <div class="about-text fade-in-section">
+          <h2>Sobre Nós</h2>
+          <div class="accent-line"></div>
+          
+          <p>Fundada em 2005, a JurisConsult nasceu com a missão de oferecer serviços jurídicos de excelência, combinando conhecimento técnico, experiência prática e uma abordagem personalizada para cada cliente.</p>
+          
+          <p>Nossa equipe é formada por advogados especializados em diversas áreas do direito, comprometidos com a defesa incansável dos interesses de nossos clientes, sempre pautados pela ética, transparência e responsabilidade profissional.</p>
+          
+          <p>Acreditamos que o acesso à justiça é um direito fundamental, e trabalhamos diariamente para tornar o universo jurídico mais acessível e compreensível para todos os nossos clientes.</p>
+          
+          <div class="stats-container">
+            <div class="stat">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Anos de experiência</span>
+            </div>
+            
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Casos de sucesso</span>
+            </div>
+            
+            <div class="stat">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Advogados especializados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="team-section fade-in-section">
+        <h3>Nossa Equipe</h3>
+        
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Dra. Ana Silva">
+            <div class="team-info">
+              <h4>Dra. Ana Silva</h4>
+              <p>Advogada Sênior - Direito Civil</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Dr. Carlos Mendes">
+            <div class="team-info">
+              <h4>Dr. Carlos Mendes</h4>
+              <p>Advogado Sênior - Direito Empresarial</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" alt="Dra. Juliana Costa">
+            <div class="team-info">
+              <h4>Dra. Juliana Costa</h4>
+              <p>Advogada Sênior - Direito do Consumidor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>JurisConsult</h3>
+          <p>Oferecemos serviços jurídicos de excelência com compromisso e dedicação para proteger seus direitos e interesses.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Nossos Serviços</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Horário de Funcionamento</h4>
+          <ul class="hours-list">
+            <li><span>Segunda - Sexta:</span><span>09:00 - 18:00</span></li>
+            <li><span>Sábado:</span><span>09:00 - 12:00</span></li>
+            <li><span>Domingo:</span><span>Fechado</span></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> JurisConsult. Todos os direitos reservados.</p>
+        <div class="footer-policy">
+          <a href="#">Política de Privacidade</a>
+          <span>|</span>
+          <a href="#">Termos de Serviço</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
