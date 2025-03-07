@@ -85,29 +85,29 @@ const CompanyInfo = () => {
         </div>
 
         <div className="mt-20 fade-in-section">
-          <div className="bg-law-DEFAULT text-white rounded-lg overflow-hidden shadow-xl">
+          <div className="bg-gray-200 rounded-lg overflow-hidden shadow-xl">
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/2 p-10 md:p-16 flex flex-col justify-center">
-                <h3 className="text-2xl md:text-3xl font-bold mb-4">Por que escolher nossa equipe?</h3>
-                <p className="text-white/80 mb-6">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4 text-law-DEFAULT">Por que escolher nossa equipe?</h3>
+                <p className="text-gray-700 mb-6">
                   Com mais de 15 anos de experiência, nossa equipe de advogados altamente qualificados está comprometida em oferecer serviços jurídicos excepcionais, combinando conhecimento técnico com uma abordagem personalizada para cada cliente.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <div className="mr-3 text-law-accent">✓</div>
-                    <span>Atendimento personalizado</span>
+                    <span className="text-gray-700">Atendimento personalizado</span>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-3 text-law-accent">✓</div>
-                    <span>Profissionais especializados</span>
+                    <span className="text-gray-700">Profissionais especializados</span>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-3 text-law-accent">✓</div>
-                    <span>Compromisso com resultados</span>
+                    <span className="text-gray-700">Compromisso com resultados</span>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-3 text-law-accent">✓</div>
-                    <span>Ética e transparência</span>
+                    <span className="text-gray-700">Ética e transparência</span>
                   </li>
                 </ul>
               </div>

@@ -79,7 +79,7 @@ const AboutUs = () => {
           </div>
         </div>
         
-        <div className="mt-20 fade-in-section">
+        <div className="mt-20 fade-in-section bg-gray-200 py-16 px-8 rounded-lg">
           <h3 className="text-2xl md:text-3xl text-law-DEFAULT font-bold mb-10 text-center">Nossa Equipe</h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
